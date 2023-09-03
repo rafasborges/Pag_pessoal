@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
-    <link rel = "stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/livro.png">
+    <link rel = "stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -13,8 +13,8 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sobre_mim">Sobre mim</a></li>
-                <li><a href="#Interesses">Interesses</a></li>
-                <li><a href="#Disciplinas_Cursadas">Discplinas Cursadas</a></li>
+                <li><a href="#interesses">Interesses</a></li>
+                <li><a href="#disciplinas_cursadas">Discplinas Cursadas</a></li>
                 <li><a href="html_dict.html"> Dicionário das Tags</a></li>
             </ul>   
         </nav>
@@ -24,29 +24,38 @@
         <div class = div_principal>
             <div>
                 <section>
-                    <h1 id = "home"> Portifólio</h1>
-                    <h4>
-                        Rafaela Silva Borges
-                    </h4>
+                    <h1 id = "home">  Portifólio - Rafaela Silva Borges</h1>
                 </section>
                 <section>
-                    <h1 id = "sobre mim"> Sobre mim </h1>
+                    <h1 id = "sobre_mim"> Sobre mim </h1>
+                        <div class="texto_sobremim">
+                            <p>Olá! Meu nome é Rafaela, tenho 20 anos e moro em Florianópolis - Santa Catarina. Atualmente, estou na terceira fase do Curso de Sistemas de Informação na UFSC (Universidade Federal de Santa Catarina).<br></p>
+                            <p>Durante esses período na faculdade fui capaz de me envolver e conhecer diversas áreas diferentes. Primeiramente, começei a fazer parte da Pixel - Soluções Digitais (Empresa Júnior dos Cursos de Ciências da Computação e Sistemas de Informação da UFSC), participei de uma iniciação Científica no laborório LapeSD e também, fui voluntária por seis meses em um projeto que ensina meninas de uma escola municipal o básico de programação.<br></p>
+                            <p>Além disso, jogar vôlei sempre foi algo presenta na minha vida, joguei por alguns anos pelo time de Florianópolis. Nessa fase, isso não iria ser diferente, jogo volei de quadra e praia pelo time da Atlética do Curso a A5 e também, pela atlética do CTC a ATCTC.</p> 
+                        </div>
                 </section> 
                 <section>
-                    <h1 id = "Interesses"> Interesses</h1>
-
+                    <h1 id = "interesses"> Interesses</h1>
+                    <div class="texto_interesses">
+                        <p>Gosto muito de trabalhar em equipe e com isso, surge a necessidade de desenvolver cada vez mais minhas softs skills.</p>
+                        <p>Além disso, minha meta até o final da faculdade é ter escolhido uma área dentro do curso para me aprofundar e consequentemente, para seguir minha carreira.</p>
+                        <p>Por fim, não poderia deixar de lado minha paixão pelo esporte, pretendo até o final do ano continuar praticando diáriamente e continuar participando de competições com os meus colegas. </p>
+                    </div>
                 </section>
             </div>
             <aside>
-            <img src="img/Rafaela (1).png" alt = "Minha foto">
-            <h1> Rafaela Silva Borges</h1>
-            <p> Cursa Sistemas de Informação</p>
-            <p> Meus interesses são pipipipopopo</p>
-            <a href="https://sin.ufsc.br"> Viste a página do curso </a>
-            <p><a href="https://github.com/rafasborges"> Visite meu github </a></p> 
+                <div>
+                    <div class="eu"><img src="img/Rafaela (1).png" alt = "Minha foto"></div>
+                    <h1> Rafaela Silva Borges</h1>
+                    <p> Curso Sistemas de Informação</p>
+                    <p> Atualmente, trabalho na <br> Pixel - Soluçôes Digitais</p>
+                </div>
+
+            <a class="botao" href="https://sin.ufsc.br"> Viste a página do Curso </a>
+            <a class="botao" href="https://github.com/rafasborges" target="_blank" > Meu Github  </a>
             </aside>
         </div>
-        <h1 id = "Disciplinas Cursadas"> Disciplinas cursadas</h1>
+        <h1 id = "disciplinas_cursadas"> Disciplinas cursadas:</h1>
             <div class = div_materias>
             
                 <div>
@@ -88,12 +97,15 @@
             </div>
         </section>
         <section>
-            <h1> Links para projetos públicos </h1>
+            <h1 id ="links">Links para projetos públicos: </h1>
+            <a class = "botao_dif" href="https://github.com/rafasborges/DSOT2/tree/5c62b30db0b0010df61a2331d4f12fa6518e408d"> Projeto Disciplina DSO</a>
+            
         </section>
     </main>
     <footer>
         <address>
-            <a href="https://www.linkedin.com/notifications/?filter=all"> LinkedIn</a>
+            <a class = "botao_end" href="https://www.linkedin.com/notifications/?filter=all">LinkedIn</a> /
+            <a class = "botao_end" href="https://ejpixel.com.br">Pixel - Soluções Digitais</a>
         </address>
     </footer>
 </body>
