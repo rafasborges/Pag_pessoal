@@ -96,7 +96,7 @@ aside>div{
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     margin-left: 2%;
 }
 .botao_end{
@@ -115,22 +115,21 @@ aside>div>div>img{
   text-align: center;
 }
 
-
-.div_materias{
+.div_materias {
   display: flex;
   margin: 5px;
   justify-content: space-around;
   gap: 16px;
   padding: 10px;
-
 }
-.div_materias > div{
+
+.div_materias > div {
   background-color: #ce7095;
-  width: 33.3333%;
+  width: 30%; /* Ajustei a largura para 30% */
   border-radius: 5px;
   padding: 10px;
   text-align: justify;
-  color:white;
+  color: white;
 }
 
 
